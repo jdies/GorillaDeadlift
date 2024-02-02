@@ -8,12 +8,12 @@
 
     <style>
         body {
-            font-family: 'Montserrat', sans-serif;
+            font-family: 'Impact', 'Arial';
             background-color: #282c35;
             color: #fff;
             margin: auto;
-            max-width: 800px;
             padding: 0;
+            letter-spacing: 4px;
         }
 
         header {
@@ -21,6 +21,7 @@
             color: #61dafb;
             text-align: center;
             padding: 1em 0;
+            margin-bottom: 16px;
         }
 
         h1, h2 {
@@ -32,24 +33,8 @@
             color: #bbb;
         }
 
-        .steam-link {
-            display: block;
-            text-align: center;
-            margin-top: 20px;
-        }
-
-        .steam-link a {
-            display: inline-block;
-            padding: 15px 30px;
-            background-color: #61dafb;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 8px;
-            transition: background-color 0.3s ease-in-out;
-        }
-
-        .steam-link a:hover {
-            background-color: #4fa3d1;
+        .content {
+            max-width: 800px;
         }
     </style>
 </head>
@@ -58,8 +43,9 @@
     <header>
         <h1>Gorilla Deadlift Interactive</h1>
     </header>
-
-    <iframe src="https://store.steampowered.com/widget/2440060/" frameborder="0" width="646" height="190"></iframe>
+    <div class="content">
+        <iframe src="https://store.steampowered.com/widget/2440060/" frameborder="0" width="646" height="190"></iframe>
+    </div>
 </body>
 
 </html>
